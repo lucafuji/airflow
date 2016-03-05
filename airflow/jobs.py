@@ -21,7 +21,7 @@ from sqlalchemy.orm.session import make_transient
 
 from airflow import executors, models, settings, utils
 from airflow import configuration as conf
-from airflow.utils import AirflowException, State, LoggingMixin, provide_session
+from airflow.utils import AirflowException, State, LoggingMixin
 
 Base = models.Base
 ID_LEN = models.ID_LEN
